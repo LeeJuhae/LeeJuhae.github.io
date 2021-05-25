@@ -1,44 +1,51 @@
-This repository is no longer maintained. 
-============
+# Jekyll Theme - Mundana by WowThemes.net
 
-Herring Cove
-============
+[Live Demo](https://wowthemesnet.github.io/mundana-theme-jekyll/) &nbsp; | &nbsp;
+[Download](https://github.com/wowthemesnet/mundana-theme-jekyll/archive/master.zip) &nbsp; | &nbsp;
+[Buy me a coffe](https://www.wowthemes.net/donate/) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/mundana-theme-jekyll/) &nbsp; | &nbsp;
+[WordPress version](https://www.wowthemes.net/themes/mundana-wordpress/)
 
-Herring Cove is a clean and responsive theme for Jekyll. 
+![mundana jekyll theme screenshot](assets/images/screenshot.jpg)
+
+### Documentation
+
+[How to install & use](https://bootstrapstarter.com/bootstrap-templates/mundana-theme-jekyll/)
+
+### Contribute to Mundana repository
+
+1. In the top-right corner of this page, click **Fork**.
+
+2. Clone a copy of your fork on your local, replacing *YOUR-USERNAME* with your Github username.
+
+   `git clone https://github.com/YOUR-USERNAME/mundana-theme-jekyll.git`
+
+3. **Create a branch**:
+
+   `git checkout -b <my-new-feature-or-fix>`
+
+4. **Make necessary changes and commit those changes**:
+
+   `git add .`
+
+   `git commit -m "new feature or fix"`
+
+5. **Push changes**, replacing `<add-your-branch-name>` with the name of the branch you created earlier at step #3. :
+
+   `git push origin <add-your-branch-name>`
+
+6. Submit your changes for review. Go to your repository on GitHub, you'll see a **Compare & pull request** button. Click on that button. Now submit the pull request.
+
+That's it! Soon I'll be merging your changes into the master branch of this project. You will get a notification email once the changes have been merged. Thank you for your contribution.
 
 
-### Overview 
+### Copyright
 
-* Fixed Sidebar with social links
-* Minimal design 
-* Comments by Disqus
-* Social Sharing abilities 
-* Easy to configure
-* Based on Bootstrap
+Copyright (C) 2019 WowThemes.net.
 
-### Screenshots
+Theme designed and developed by [Sal](https://www.wowthemes.net), *free* under MIT license.
 
-![screenshot](/images/screenshot1.png)
-![screenshot](/images/screenshot2.png)
+<a href="https://www.wowthemes.net/donate/" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
-### Setup
+### Live Demo
 
-1. Install Jekyll
-2. Fork or [download](https://github.com/arnp/herring-cove/archive/master.zip) this theme repo
-3. Edit the `_config.yml` file
-
-You can change the showcase image by replacing `showcase.jpg` file in the `images` folder. I'll try to find a better way to do this soon. 
-
-### Download
-
-[download](https://github.com/arnp/herring-cove/archive/master.zip)
-
-### License
-* [MIT](http://opensource.org/licenses/MIT)
-
--------------
-Herring Cove is always a work in progress and as such, I hope to clean up the code and add features as time permits. Feel free to add your own additions. 
-
-*What's with the name?*
-
-[Herring Cove](http://www.capecodbeachchair.com/beachguide/index.cfm?page=3&BeachID=5) is a beach on Cape Cod in Provincetown, Massachusetts. If you're in the area, be sure to check it out!
+[Live Demo](https://wowthemesnet.github.io/mundana-theme-jekyll/)

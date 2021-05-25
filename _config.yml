@@ -1,65 +1,24 @@
-# Site
-name: 'Mundana'
-description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
-baseurl: '/mundana-theme-jekyll'
-disqus: 'demowebsite'
-email: 'wowthemesnet@gmail.com'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+title: Churrros BLOG
+author: pro-panda
+subtitle: The life of a frustrated engineer
 
-include: ["_pages"]
-permalink: /:title/
+url: "https://leejuhae.github.io"
+baseurl: ""
 
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-seo-tag
+footer_only_homepage: true
+footer_url: "https://github.com/rahul-bothra"
+footer_text: "Theme by rahul-bothra"
 
-authors:
-    sal:
-      name:           Sal
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+profile-picture: assets/profile.png
+favicon_location: assets/favicon.ico
 
-    jane:
-      name:           Jane
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+permalink: /:year-:month-:day-:title/
+sass:
+    style: compressed
+    sass_dir: css
 
-# Defaults
-defaults:
-
-  # all posts
-  - scope:
-      path: "_posts"
-    values:
-      layout: post
-      author: sal
-      avatar: /assets/images/avatar1.jpg
-
-  # all pages
-  - scope:
-      path: "_pages"
-    values:
-      layout: page
-
-# Syntax
-markdown: kramdown
-highlighter: rouge
-
-# Paginate
-paginate: 10
-
-
-
-# Exclude metadata and development time dependencies (like Grunt plugins)
-exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
+navbar:
+ - name: "About"
+   link: "about"
+ - name: "Resume"
+   absolute-link: "https://rahul-bothra.github.io/CV.pdf"

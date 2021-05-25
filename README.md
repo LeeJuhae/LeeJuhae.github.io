@@ -1,51 +1,37 @@
-# Jekyll Theme - Mundana by WowThemes.net
+# Parchment
+A clean, single column blog template built for jekyll
 
-[Live Demo](https://wowthemesnet.github.io/mundana-theme-jekyll/) &nbsp; | &nbsp;
-[Download](https://github.com/wowthemesnet/mundana-theme-jekyll/archive/master.zip) &nbsp; | &nbsp;
-[Buy me a coffe](https://www.wowthemes.net/donate/) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/mundana-theme-jekyll/) &nbsp; | &nbsp;
-[WordPress version](https://www.wowthemes.net/themes/mundana-wordpress/)
+## Building Locally
+* Clone the repository
+* Run `bundle install`
+* Run `bundle exec jekyll serve`
+* Visit browser at `http://127.0.0.1:4000/parchment/`
 
-![mundana jekyll theme screenshot](assets/images/screenshot.jpg)
+## Usage
 
-### Documentation
+* To use this as your GitHub Page, fork this repository, and
+  rename it to `<username>.github.io`. Your site will be live
+  at `https://<username>.github.io/parchment-jekyll`.
 
-[How to install & use](https://bootstrapstarter.com/bootstrap-templates/mundana-theme-jekyll/)
+* You can customise variables in `_config.yml` and `css/*` files.
 
-### Contribute to Mundana repository
+* You can add markdown files, say `foo.md` in the root directory
+  of the repository. It will then be accessible like
+  `your.website.com/foo`.
 
-1. In the top-right corner of this page, click **Fork**.
+* To add posts, add your posts in the `_posts` directory. Follow
+  the naming convention `%yyyy-%mm-%dd-your-title-here.md`.
 
-2. Clone a copy of your fork on your local, replacing *YOUR-USERNAME* with your Github username.
+* To add a profile picture, use class `profile-picture` around
+  the image.
 
-   `git clone https://github.com/YOUR-USERNAME/mundana-theme-jekyll.git`
+## Contributing
+Pull requests are welcome. For major changes, please open an
+issue first to discuss what you would like to change.
 
-3. **Create a branch**:
+## Credits
+Parchment is inspired from the resume theme
+[Researcher](https://github.com/ankitsultana/researcher)
 
-   `git checkout -b <my-new-feature-or-fix>`
-
-4. **Make necessary changes and commit those changes**:
-
-   `git add .`
-
-   `git commit -m "new feature or fix"`
-
-5. **Push changes**, replacing `<add-your-branch-name>` with the name of the branch you created earlier at step #3. :
-
-   `git push origin <add-your-branch-name>`
-
-6. Submit your changes for review. Go to your repository on GitHub, you'll see a **Compare & pull request** button. Click on that button. Now submit the pull request.
-
-That's it! Soon I'll be merging your changes into the master branch of this project. You will get a notification email once the changes have been merged. Thank you for your contribution.
-
-
-### Copyright
-
-Copyright (C) 2019 WowThemes.net.
-
-Theme designed and developed by [Sal](https://www.wowthemes.net), *free* under MIT license.
-
-<a href="https://www.wowthemes.net/donate/" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
-### Live Demo
-
-[Live Demo](https://wowthemesnet.github.io/mundana-theme-jekyll/)
+## License
+[GNU GPL v3](LICENSE)

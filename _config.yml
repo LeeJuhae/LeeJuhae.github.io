@@ -1,4 +1,4 @@
-title: churrros
+title: churrros' log
 description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
 
 url: http://long-haul.netlify.app
@@ -22,13 +22,11 @@ navigation:
     url: /contact
 
 social:
-  github: brianmaierjr
-  twitter: brianmaierjr
-  facebook: brianmaierjr
-  email: brimaidesigns@gmail.com
-  linkedin: brianmaierjr
+  github: LeeJuhae
+  # twitter: brianmaierjr
+  email: leejuhae821@gmail.com
+  # linkedin: brianmaierjr
 
 google_analytics: 'UA-58263416-1'
-
-disqus:
-  shortname: brianmaierjr
+# disqus:
+#   shortname: brianmaierjr

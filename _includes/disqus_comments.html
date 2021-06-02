@@ -1,6 +1,14 @@
 {%- if page.comments != false and jekyll.environment == "production" -%}
-  <div id="disqus_thread" style="margin-top:10px;"></div>
-  <script>
+<div id="disqus_thread" style="margin-top: 10px"></div>
+<script
+  src="https://utteranc.es/client.js"
+  repo="LeeJuhae/blog-comments"
+  issue-term="og:title"
+  theme="github-light"
+  crossorigin="anonymous"
+  async
+></script>
+<!-- <script>
     var disqus_config = function () {
       this.page.url = '{{ page.url | absolute_url }}';
       this.page.identifier = '{{ page.url | absolute_url }}';
@@ -15,5 +23,5 @@
       (d.head || d.body).appendChild(s);
     })();
   </script>
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript> -->
 {%- endif -%}

@@ -21,8 +21,8 @@ If you really enjoy Long Haul and want to give me credit somewhere on the intern
 - Estimated Reading Time for posts
 - Stylish Drop Cap on posts
 - A Better Type Scale for all devices
-- Comments powered by Disqus
-- [Dark Mode support](https://github.com/brianmaierjr/long-haul/blob/master/preview-dark.png) via [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) 
+<!-- - Comments powered by Disqus -->
+- [Dark Mode support](https://github.com/brianmaierjr/long-haul/blob/master/preview-dark.png) via [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)
 
 ## Setup
 

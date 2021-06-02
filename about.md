@@ -1,25 +1,24 @@
 ---
 layout: default
-title: About Me
+title: About Long Haul
 ---
 
-<img class="profile-picture" src="{{site.baseurl}}/{{site.profile-picture}}">
-
-I'm Dilbert. I've been working as a Software Engineer for over 30 years. I like to innovate to solve challenging problems using technology. I work with a great Engineering team, but we have a good-for-nothing and clueless manager, who can be replaced with a monkey and the change would be for the better.
-
-On a personal front, I live with two amazing pets - Dogbert and Ratbert, and three dinasours - Bob, Rex and Dawn - who're hiding from the rest of the world. I'm single and have few friends due to my poor social skills, but I usually spend my time playing with computers and technology.
-
-### Life Advice
-Here are a few things I've learned over the years,
-> An optimist is simply a pessimist with no job experience.
-
-> All of your co-workers are fools. You must learn to pity and tolerate them.
-
-> There are very few problems that can't be solved through a suitable application of high explosives.
-
-### Publications
-1. Dilbert, Ratbert: "Effects of having a dog and a dinasaur in the same house", _Journal of Wierd Studies_
-2. Alice, Dilbert, Wally: "Efficient ways to deal with a dumb manager", _Conference of Frustrated Engineers_
-
-### Contact Me
-No thanks, I have enough problems of my own to deal with.
+<div class="post">
+	<h1 class="pageTitle">About Long Haul</h1>
+	<img src="{{ '/assets/img/touring.jpg' }}" alt="">
+	<p class="intro">Long Haul is a minimal, long form <a href="http://jekyllrb.com">Jekyll</a> Theme. It can be used as is or customized to your hearts desire.</p>
+	<p>Long Haul was created in honor of all the hard working touring bicycles that have traversed the globe time and time again. Take it for a spin.</p>
+	<h2>Features</h2>
+	<ul>
+		<li>Built with SASS + GULP + BROWSERSYNC + AUTOPREFIXER</li>
+  		<li>SVG Social Icons from <a href="http://customizr.net/icons/">Customizr</a></li>
+  		<li><a href="http://responsive-nav.com/">Responsive Nav Menu</a></li>
+  		<li><a href="https://github.com/snaptortoise/jekyll-rss-feeds">XML Feed for RSS Readers</a></li>
+  		<li>Contact Form via <a href="http://formspree.io/">Formspree</a></li>
+      <li>5 Post Loop with excerpt on Home Page</li>
+  		<li>Previous / Next Post Navigation</li>
+      <li>Estimated Reading Time for posts</li>
+  		<li><a href="https://github.com/adobe-webplatform/dropcap.js">Drop Cap</a> on posts</li>
+  		<li><a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography">A Better Type Scale</a></li>
+  	</ul>
+</div>
